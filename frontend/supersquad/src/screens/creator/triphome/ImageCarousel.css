@@ -1,0 +1,29 @@
+.carousel-image {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-image.next {
+  z-index: 10;
+}
+
+.carousel-image.prev {
+  z-index: 10;
+}
+
+.carousel-image.next.next {
+  transform: translateX(100%);
+}
+
+.carousel-image.next.prev {
+  transform: translateX(-100%);
+}
+
+.carousel-image.next.next.animating {
+  transform: translateX(0);
+}
+
+.carousel-image.next.prev.animating {
+  transform: translateX(0);
+}

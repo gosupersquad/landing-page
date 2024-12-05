@@ -1,0 +1,301 @@
+.nav_p {
+  color: var(--Text-Primary, #000);
+  font-family: Switzer;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  cursor: pointer;
+}
+
+.nav_p_mob {
+  color: #000;
+  text-shadow: 0px 1px 0px #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  font-family: Switzer;
+  cursor: pointer;
+}
+
+.home_top_div_text {
+  color: var(--Text-Primary, #000);
+  font-family: Switzer;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.home_top_div_text_secondary {
+  color: var(--Text-Secondary, rgba(0, 0, 0, 0.7));
+  font-family: Switzer;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 36px */
+}
+
+.explore_button {
+  border-radius: 100px;
+  background: #1a1a1a;
+  width: 180px;
+  height: 44px;
+  color: #fff;
+  font-family: Switzer;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 21px */
+  cursor: pointer;
+}
+
+.header_text {
+  color: #000;
+  font-family: Switzer;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.category_text {
+  color: var(--Text-Primary, #000);
+  font-family: Switzer;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+
+.why_header {
+  color: #000;
+  font-family: Switzer;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 27px */
+}
+
+.why_decription {
+  color: var(--Text-Secondary, rgba(0, 0, 0, 0.7));
+  font-family: Switzer;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+.review_card_wrapper {
+  border-radius: 24px;
+  background: var(--White-Color, #fff);
+  box-shadow: 0px 2px 24px 1px rgba(102, 102, 102, 0.15);
+  width: calc(33% - 13px);
+}
+
+.logo_div {
+  display: flex;
+  width: 282px;
+  height: 88px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background: var(--Light-Light-200, #f5f5f5);
+}
+
+.logo_text {
+  color: #000;
+  font-family: Switzer;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+}
+
+.back_div_1 {
+  border-radius: 2000px;
+  opacity: 0.3;
+  background: #ef8f93;
+  filter: blur(100px);
+  width: 100%;
+  height: 481px;
+  right: -368px;
+  top: -80px;
+}
+.back_div_2 {
+  top: 0px;
+  border-radius: 2000px;
+  opacity: 0.55;
+  background: #7fdffa;
+  filter: blur(100px);
+  height: 481px;
+  left: -472px;
+  width: 862px;
+  height: 481px;
+}
+
+.back_div_3 {
+  top: 0px;
+  border-radius: 2000px;
+  opacity: 0.4;
+  background: #f3b886;
+  filter: blur(100px);
+  height: 481px;
+  width: 862px;
+  right: -704px;
+}
+
+.back_div_4 {
+  left: -472px;
+  bottom: 0px;
+  top: 330px;
+  width: 862px;
+  height: 481px;
+  border-radius: 2000px;
+  opacity: 0.3;
+  background: #ef8f93;
+  filter: blur(100px);
+}
+
+.web_back_div_1 {
+  left: -104px;
+  top: -80px;
+  border-radius: 2000px;
+  opacity: 0.3;
+  background: #ef8f93;
+  filter: blur(100px);
+  width: 862px;
+  height: 481px;
+}
+
+.web_back_div_2 {
+  width: 862px;
+  height: 481px;
+  right: 0px;
+  top: 0px;
+  border-radius: 2000px;
+  opacity: 0.55;
+  background: #7fdffa;
+  filter: blur(100px);
+  right: -8.33%;
+  z-index: 2;
+}
+
+.web_back_div_3 {
+  width: 862px;
+  height: 481px;
+  right: -8.33%;
+  bottom: 0px;
+  border-radius: 2000px;
+  opacity: 0.3;
+  background: #ef8f93;
+  filter: blur(100px);
+}
+
+.web_back_div_4 {
+  left: 232px;
+  width: 862px;
+  height: 481px;
+  border-radius: 2000px;
+  opacity: 0.4;
+  background: #f3b886;
+  filter: blur(100px);
+}
+
+.trip_card_p_1 {
+  color: var(--Text-Secondary, rgba(0, 0, 0, 0.7));
+  font-family: Switzer;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+
+.trip_card_p_2 {
+  color: #dcf7f2;
+  font-family: Switzer;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+}
+
+.trip_card_p_3 {
+  color: #fff;
+  text-shadow: 0px 1px 0px #000;
+  font-family: Switzer;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 42px */
+  height: 84px;
+}
+
+.trip_card_p_4 {
+  color: #fff;
+  text-shadow: 0px 1px 0px #000;
+  font-family: Switzer;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+
+.trip_card_p_5 {
+  color: #fff;
+  font-family: Switzer;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+
+.trip_card_p_6 {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Switzer;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+.trip_card_p_7 {
+  color: #fff;
+  font-family: Switzer;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 36px */
+}
+
+@media screen and (max-width: 600px) {
+  .header_text {
+    font-size: 36px;
+  }
+  .review_card_wrapper {
+    width: 100%;
+  }
+  .logo_div {
+    width: 100%;
+  }
+  .home_top_div_text {
+    font-size: 36px;
+  }
+  .home_top_div_text_secondary {
+    font-size: 18px;
+  }
+  .trip_card_p_5 {
+    font-size: 14px;
+  }
+  .trip_card_p_1 {
+    font-size: 12px;
+  }
+  .trip_card_p_2 {
+    font-size: 12px;
+  }
+}

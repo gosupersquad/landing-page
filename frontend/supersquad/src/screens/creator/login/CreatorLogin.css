@@ -1,0 +1,72 @@
+.MuiOutlinedInput-input {
+  font-family: Switzer !important;
+  font-size: 14px !important;
+  color: #737373 !important;
+}
+
+.MuiInputLabel-root {
+  font-family: Switzer !important;
+  font-size: 16px !important;
+  color: #737373 !important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: #e5e5e5 !important;
+  border-width: 1px !important;
+}
+
+.MuiAutocomplete-listbox {
+  color: #737373 !important;
+  font-family: Switzer !important;
+  font-size: 14px !important;
+}
+
+.PhoneInputInput {
+  border: none;
+  outline: none;
+  font-family: Switzer;
+  color: #737373;
+}
+
+.PhoneInput {
+  border: 1px solid #e5e5e5;
+  padding: 16.5px 14px;
+  border-radius: 4px;
+}
+
+.input_class_name1 {
+  border-radius: 12px;
+  background: var(--White-Color, #fff);
+  box-shadow: 0px 2px 24px 1px rgba(102, 102, 102, 0.15);
+  display: flex;
+  /* height: 44px; */
+  padding: 12px 16px;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  align-self: stretch;
+  margin-top: 8px;
+  border: none;
+  outline: none;
+  width: -webkit-fill-available;
+  color: var(--Text-Secondary, rgba(0, 0, 0, 0.7));
+  font-family: Switzer;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+}
+
+.MuiInputBase-root {
+  width: inherit;
+}
+
+.class_helper_text {
+  color: #d32f2f;
+  font-size: 0.75rem;
+  margin-right: 14px;
+  margin-top: 5px;
+  margin-left: 14px;
+  text-align: left;
+  font-family: Switzer;
+}

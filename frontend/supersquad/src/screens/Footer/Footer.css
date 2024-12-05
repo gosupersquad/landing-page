@@ -1,0 +1,28 @@
+.address_text {
+  color: var(--Text-Primary, #000);
+  font-family: Switzer;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 24px */
+  margin-top: 16px;
+}
+
+.address_text_secondary {
+  color: var(--Text-Secondary, rgba(0, 0, 0, 0.7));
+  font-family: Switzer;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  margin-top: 4px;
+}
+
+.footer_text {
+  color: var(--Text-Secondary, rgba(0, 0, 0, 0.7));
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 150%; /* 21px */
+}
