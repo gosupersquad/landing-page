@@ -179,9 +179,7 @@ const TripPageCheckout = () => {
                 <p className="trip-details-item-title-text">Dates</p>
               </div>
               <div className="trip-details-item-text">
-                {startDate?.getDate()} - {endDate?.getDate()}{" "}
-                {startDate?.toLocaleString("default", { month: "short" })},{" "}
-                {startDate?.getFullYear()}
+                {startDate?.getDate()} {startDate?.toLocaleString("default", { month: "short" })} {startDate?.getFullYear()} - {endDate?.getDate()} {endDate?.toLocaleString("default", { month: "short" })} {endDate?.getFullYear()}
               </div>
             </div>
             <div className="trip-details-item">
@@ -390,9 +388,7 @@ const TripPageCheckout = () => {
               <p className="trip-details-item-title-text">Dates</p>
             </div>
             <div className="trip-details-item-text">
-              {startDate?.getDate()} - {endDate?.getDate()}{" "}
-              {startDate?.toLocaleString("default", { month: "short" })},{" "}
-              {startDate?.getFullYear()}
+              {startDate?.getDate()} {startDate?.toLocaleString("default", { month: "short" })} {startDate?.getFullYear()} - {endDate?.getDate()} {endDate?.toLocaleString("default", { month: "short" })} {endDate?.getFullYear()}
             </div>
           </div>
           <div className="trip-details-item">

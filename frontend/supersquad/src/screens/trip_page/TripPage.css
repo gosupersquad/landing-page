@@ -285,7 +285,7 @@ body.dark {
 
 .date_button {
   display: flex;
-  width: 148px;
+  width: 200px;
   padding: 4px 8px;
   justify-content: center;
   align-items: center;

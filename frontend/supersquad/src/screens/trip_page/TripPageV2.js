@@ -534,9 +534,7 @@ export default function TripPage() {
           <button className="date_button">
             <ItnDate />
             <p style={{ color: "#000" }}>
-              {startDate?.getDate()} - {endDate?.getDate()}{" "}
-              {startDate?.toLocaleString("default", { month: "short" })},{" "}
-              {startDate?.getFullYear()}
+              {startDate?.getDate()} {startDate?.toLocaleString("default", { month: "short" })} {startDate?.getFullYear()} - {endDate?.getDate()} {endDate?.toLocaleString("default", { month: "short" })} {endDate?.getFullYear()}
             </p>
           </button>
         </div>
