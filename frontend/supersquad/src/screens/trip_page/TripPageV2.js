@@ -275,10 +275,12 @@ export default function TripPage() {
             {insideDiv(
               Date1,
               "Dates",
-              `${startDate?.getDate()} - ${endDate?.getDate()} ${startDate?.toLocaleString(
+              `${startDate?.getDate()} ${startDate?.toLocaleString("default", {
+                month: "short",
+              })} ${startDate?.getFullYear()} - ${endDate?.getDate()} ${endDate?.toLocaleString(
                 "default",
-                { month: "long" }
-              )}, ${startDate?.getFullYear()}`
+                { month: "short" }
+              )} ${endDate?.getFullYear()}`
             )}
           </div>
           <div className="trip_info_container">
@@ -695,9 +697,11 @@ export default function TripPage() {
           <div className="reserver_top_subcontainer">
             <Reserve3 className="share_icon" />
             <p className="reserve_top_container_text">
-              {startDate?.getDate()} - {endDate?.getDate()}{" "}
-              {startDate?.toLocaleString("default", { month: "long" })},{" "}
-              {startDate?.getFullYear()}
+              {startDate?.getDate()}{" "}
+              {startDate?.toLocaleString("default", { month: "short" })}{" "}
+              {startDate?.getFullYear()} - {endDate?.getDate()}{" "}
+              {endDate?.toLocaleString("default", { month: "short" })}{" "}
+              {endDate?.getFullYear()}
             </p>
           </div>
         </div>
